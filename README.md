@@ -18,4 +18,4 @@ Well, this is my version of the challenge's second project, a basic ReactTS prod
 
 <br />
 
-![image](https://user-images.githubusercontent.com/74681686/213020454-cca5f4f8-ffa5-4d6e-ad16-67f92c121a81.png)
+![image](https://user-images.githubusercontent.com/74681686/213036570-474d3a22-1133-417d-8b6d-ee9811d361d6.png)
