@@ -8,7 +8,7 @@ Well, this is my version of the challenge's second project, a basic ReactTS prod
 <br />
 
 ## 🏹 challenges 
-- [X] find a way to use a 3d model inside the ui
+- [X] find a way to use a 3d model inside the browser
 
 <br />
 
