@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:wght@100;300;400&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    cursor: default;
+} 
+
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    min-height: 100vh;
+    background: #D9CDF7;
+    color: #271A45;
+    padding: 3rem 1.5rem;
+
+    main {
+        flex: 3;
+
+        iframe {
+            height: 40rem;
+            width: 100%;
+            filter: saturate(1.2)  saturate(1.2) hue-rotate(330deg) ;
+        }
+    }
+    
+    aside {
+        flex: 2;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        h1 {
+            font-family: 'Crimson Pro';
+            font-weight: 600;
+            font-size: 4rem;
+            margin: 1rem 0;
+        }
+        
+        span, button, p {
+            font-family: 'Lato';
+        }
+
+        p {
+            font-size: 1.75rem;
+            font-weight: 400;
+        }
+
+        button {
+            background: none;
+            border: 1px solid #271A45;
+            color: #271A45;
+            text-transform: uppercase;
+            font-weight: 400;
+            font-size: 1.5rem;
+            border-radius: 2rem;
+            padding: 1rem 3rem;
+            align-self: flex-start;
+            margin: 2rem 0 0 0;
+            cursor: pointer;
+        }
+    }
+    
+    .model {
+        filter: saturate(.2);
+    }
+}
+
+@media only screen and (max-width: 1264px) {
+    .App {
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    aside {
+        text-align: center;
+        
+        button {
+            align-self: center!important;
+        }
+    }
+}
